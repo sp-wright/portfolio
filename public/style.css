@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Darker Grotesque', sans-serif;
+  cursor: default;
+  color: rgb(69, 69, 69);
+}
+
+/* NAV */
+
+.logo {
+  font-size: 4rem;
+  text-decoration: none;
+  color: rgb(69, 69, 69);
+  background: none;
+  cursor: pointer;
+}
+
+span {
+  color: rgb(162, 180, 57);
+  border: none;
+  border-bottom: solid 3px rgb(162, 180, 57);
+}
+
+nav {
+  position: fixed;
+  height: 12vh;
+  width: 100vw;
+  padding: 0 6%;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.nav-link * {
+  color: rgb(69, 69, 69);
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background: none;
+  border-bottom: solid 1px #fafafa;
+  cursor: pointer;
+}
+
+.nav-link *:hover {
+  border-bottom: solid 1px rgb(162, 180, 57);
+}
+
+/* HEADER */
+
+header {
+  background-image: url('./images/cloud-island.jpg');
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(1px 1px 3px rgb(69, 69, 69));
+}
+
+.header-container h1 {
+  color: rgb(250, 250, 250);
+  font-size: 8rem;
+}
+
+.header-container h3 {
+  color: rgb(250, 250, 250);
+
+  font-size: 2rem;
+}
+
+.main-btn {
+  background: none;
+  color: #f4f4f4;
+  border: solid 2px #f4f4f4;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background-color: #f4f4f438;
+}
+
+/* ABOUT */
+
+.about {
+  min-height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #fafafa;
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  border-left: solid 3px rgb(162, 180, 57);
+}
+
+.about-content h2 {
+  font-size: 1.3rem;
+  padding: 0.5rem 2rem;
+}
+
+.about-text span {
+  font-size: 1.1rem;
+}
+
+/* PROJECTS */
+
+.projects {
+  min-height: 100vh;
+  background-color: rgba(162, 180, 57, 0.596);
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: space-around;
+  background: url('./images/cloud-island.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+}
+
+.projects-card-container {
+  pointer-events: none;
+}
+
+.projects-title {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 3px rgb(162, 180, 57);
+}
+
+.projects-title h1 {
+  color: rgb(250, 250, 250);
+  filter: drop-shadow(1px 1px 2px rgb(0, 0, 0));
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15vh 0;
+}
+
+.projects-card {
+  width: 300px;
+  max-height: 600px;
+  background-color: white;
+  border-radius: 5px;
+  filter: drop-shadow(0 1px 2px rgba(69, 69, 69, 0.363));
+  padding: 1rem;
+  margin: 0.75rem;
+  cursor: pointer;
+  pointer-events: initial;
+}
+
+.projects-card-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.projects-card h3 {
+  font-size: 2rem;
+  border-bottom: solid 1px rgb(162, 180, 57);
+  margin-bottom: 0.5rem;
+}
+
+.projects-card img {
+  width: 90%;
+  margin: auto;
+}
+
+.projects-text {
+  font-size: 1.25rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+.links {
+  width: 100%;
+  text-align: center;
+}
+
+.tech-text {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.8rem;
+  border-top: solid 1px rgb(162, 180, 57);
+  margin-top: 1rem;
+}
+
+.links p {
+  padding-bottom: 0.5rem;
+}
+
+.links a {
+  padding: 0 0.3rem;
+  color: rgb(162, 180, 57);
+  pointer-events: initial;
+}
+
+.links a:hover {
+  color: rgb(69, 69, 69);
+}
+
+/* CONTACT */
+
+.contact {
+  min-height: 25vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-links {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.contact-links a {
+  padding: 0.5rem;
+  color: rgb(162, 180, 57);
+}
+
+.contact-links a:hover {
+  color: rgb(69, 69, 69);
+}
+
+.signature {
+  margin-bottom: 1rem;
+}
+
+/* MODAL */
+
+.modal {
+  padding: 15vh 3vw;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: #fafafa;
+  pointer-events: none;
+}
+
+.modal-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  text-align: center;
+}
+
+.modal-container > div {
+  padding: 1rem;
+}
+
+.cross {
+  position: absolute;
+  top: 5vh;
+}
+
+.close {
+  color: rgb(162, 180, 57);
+  cursor: pointer;
+  pointer-events: initial;
+}
+
+.close:hover {
+  color: rgb(69, 69, 69);
+}
+
+.modal-container h3 {
+  font-size: 3rem;
+}
+
+.modal-container img {
+  max-width: 60vw;
+  max-height: 40vh;
+}
+
+.modal-container p {
+  font-size: 1.5rem;
+}
+
+.modal-container h4 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.modal-container a {
+  padding: 0.5rem;
+  color: rgb(162, 180, 57);
+  pointer-events: initial;
+}
+
+.hide {
+  display: none;
+}
