@@ -149,6 +149,11 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  pointer-events: none;
+}
+
+.projects-card-container {
+  pointer-events: none;
 }
 
 .projects-title {
@@ -180,6 +185,7 @@ header {
   padding: 1rem;
   margin: 0.75rem;
   cursor: pointer;
+  pointer-events: initial;
 }
 
 .projects-card-container {
