@@ -116,6 +116,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: default;
 }
 
 .about-content {
