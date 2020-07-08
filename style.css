@@ -335,8 +335,11 @@ header {
 /* MEDIA */
 
 @media (max-width: 800px) {
+  nav {
+    padding: 0 4%;
+  }
   .logo {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .nav-link * {
