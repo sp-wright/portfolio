@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.c3c2deaa.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c3c2deaa.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.63f51660.chunk.css",
+    "main.js": "/portfolio/static/js/main.6bfc3a5d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6bfc3a5d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b679d28b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b679d28b.js.map",
-    "static/js/2.cd674ce7.chunk.js": "/portfolio/static/js/2.cd674ce7.chunk.js",
-    "static/js/2.cd674ce7.chunk.js.map": "/portfolio/static/js/2.cd674ce7.chunk.js.map",
+    "static/js/2.488cd086.chunk.js": "/portfolio/static/js/2.488cd086.chunk.js",
+    "static/js/2.488cd086.chunk.js.map": "/portfolio/static/js/2.488cd086.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1636cff41a3163eb62d08d25a267489b.js": "/portfolio/precache-manifest.1636cff41a3163eb62d08d25a267489b.js",
+    "precache-manifest.2375006965fa67a8a1b37be6ab051b0e.js": "/portfolio/precache-manifest.2375006965fa67a8a1b37be6ab051b0e.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/js/2.cd674ce7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cd674ce7.chunk.js.LICENSE.txt"
+    "static/css/main.63f51660.chunk.css.map": "/portfolio/static/css/main.63f51660.chunk.css.map",
+    "static/js/2.488cd086.chunk.js.LICENSE.txt": "/portfolio/static/js/2.488cd086.chunk.js.LICENSE.txt",
+    "static/media/buzz-scraper.png": "/portfolio/static/media/buzz-scraper.ebc0aead.png",
+    "static/media/style.css": "/portfolio/static/media/cloud-island.d18ca92d.jpg",
+    "static/media/count-on-me.png": "/portfolio/static/media/count-on-me.6e904de1.png",
+    "static/media/more-jobs.png": "/portfolio/static/media/more-jobs.4552a225.png",
+    "static/media/rps.png": "/portfolio/static/media/rps.619bc06f.png",
+    "static/media/swp.png": "/portfolio/static/media/swp.9a2ab667.png",
+    "static/media/tuesday.com.png": "/portfolio/static/media/tuesday.com.6fd2b04b.png",
+    "static/media/uniting-nations.png": "/portfolio/static/media/uniting-nations.5fe7c2ec.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b679d28b.js",
-    "static/js/2.cd674ce7.chunk.js",
-    "static/js/main.c3c2deaa.chunk.js"
+    "static/js/2.488cd086.chunk.js",
+    "static/css/main.63f51660.chunk.css",
+    "static/js/main.6bfc3a5d.chunk.js"
   ]
 }
