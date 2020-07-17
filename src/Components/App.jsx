@@ -5,6 +5,7 @@ import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
 import Modal from './Modal';
+import '../style.css';
 
 const App = () => {
   const [modal, setModal] = useState(false);
