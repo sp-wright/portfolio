@@ -12,8 +12,8 @@ const myProjects = [
     description: 'A responsive Full-stack application for Developer teams to work collaboratively on bug and issue tracking. Integrating CRUD functionality and RESTful API design.',
     tech: 'React, Node.js, mongoDB, Heroku, JSX, CSS, RESTful APIs',
     img: tuesdayDotComImg,
-    source: 'https://sp- wright.github.io/tuesdaydotcom/',
-    gitHub: 'https:// github.com/sp-wright/tuesdaydotcom',
+    source: 'https://sp-wright.github.io/tuesdaydotcom/',
+    gitHub: 'https://github.com/sp-wright/tuesdaydotcom',
   },
   {
     name: 'Uniting Nations',
@@ -44,8 +44,8 @@ const myProjects = [
     description: 'A responsive Web Scraping App using Node.js, Puppeteer & EJS to display the top 10 trending quizzes on BuzzFeed.com',
     img: buzzScraperImg,
     tech: 'Node.js, EJS, HTML, CSS, Puppeteer, Heroku',
-    source: 'https://glacial- plateau-32836.herokuapp.com/',
-    gitHub: 'https://github.com/sp- wright/buzzscraper',
+    source: 'https://glacial-plateau-32836.herokuapp.com/',
+    gitHub: 'https://github.com/sp-wright/buzzscraper',
   },
   {
     name: 'Rock, Paper, Scissors',
